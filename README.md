@@ -35,3 +35,16 @@ After the abstraction was applied, with other fundamental information, the same 
   
 ![Image](https://github.com/BrenoCPimenta/PokerRNN/blob/master/img/data_table.jpg?raw=true)
 Afterwards normalization was applied, and the data was separated in train 80% and test 20%, both of which obey a distribution of turns of the plays.
+
+## Libraries
+* Pytorch
+* Scikit-learn
+* Numpy
+* Pandas
+* Matplotlib
+* [Treys](https://github.com/ihendley/treys)
+
+<br>
+
+# IMPORTANT:
+> This project has a strictly academic interest, the use of any of the available materials is prohibited for profitable use. Therefore , all data used during the process were removed from this repository.
