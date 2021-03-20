@@ -34,7 +34,6 @@ After the abstraction was applied, with other fundamental information, the same 
   
   
 ![Image](https://github.com/BrenoCPimenta/PokerRNN/blob/master/img/data_table.jpg?raw=true)
-Afterwards normalization was applied, and the data was separated in train 80% and test 20%, both of which obey a distribution of turns of the plays.
 
 ## Libraries
 * Pytorch
