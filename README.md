@@ -24,7 +24,7 @@ The biggest challenge was the data treatment, so that could be consumed by the N
 And the plays were separated by player, so the loss could be calculated as if the net was playing the game. 
 
 ### Abstraction:
-Since the game complexity is enormous, abstraction was needed.
+Since the game complexity is [enormous](https://poker.cs.ualberta.ca/publications/2013-techreport-nl-size.pdf), abstraction was needed.
 * **Actions:** The actions were separated in 5 categories F-fold; C-check/call; RS-small-raise; RM-medium-rase; RB-big-raise. Inside the project there is a study that explains why.
 * **Hand Cards**: This [algorithm](https://github.com/ihendley/treys) was used to only be computed the hand strength.
 * **Table Cards**: When the table cards are shown the hand strength is recalculated, but there is more information. It was calculated by custom functions, part of those information, known as **Board Texture**, represented by BoardStraight, BoardColor and BoardPair columns.
